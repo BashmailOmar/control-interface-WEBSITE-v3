@@ -41,14 +41,14 @@ sliderF.oninput = function() {
 }
 
 
-  window.watsonAssistantChatOptions = {
-      integrationID: "51e40a81-b2b7-4488-b722-cf54f5cb8a77", // The ID of this integration.
-      region: "eu-gb", // The region your integration is hosted in.
-      serviceInstanceID: "3d264ece-cb0b-498b-b075-d98e16a9171a", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+window.watsonAssistantChatOptions = {
+    integrationID: "51e40a81-b2b7-4488-b722-cf54f5cb8a77", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "3d264ece-cb0b-498b-b075-d98e16a9171a", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+};
+setTimeout(function() {
+    const t = document.createElement('script');
+    t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
     document.head.appendChild(t);
-  });
+});
