@@ -1,64 +1,29 @@
-# control-interface-WEBSITE-v2
-
--- طريقة الإستخدام --
+# control-interface-WEBSITE-v3
 
 
-1- وضع القيم لكل محرك.
+تم التعديل واضافة chatBot للموقع.
 
 
-2- ثم الضغط على كلمة SAVE.
+--chatBot طريقة الإستخدام --
 
 
-3- يتم ارسال القيم لقاعدة البيانات.
+- عند الضغط على خانة الـ chatBot ستظهر رسالة ترحيب.
 
 
-4- يتم تخزين القيم في قاعدة البيانات.
+- .ويوجد خياران يمكنك اختيار ماهو مناسب لك
 
 
-5- يتم ارسال القيم من قاعدة البيانات لصفحة الـ valuesView.
+مقطع يوضح كيفية المحادثه مع البوت
+
+![AppPlayer 2021 06 30 - 08 35 59 03](https://user-images.githubusercontent.com/78684031/123907826-2b921500-d97f-11eb-834c-7b9b1a8db3e3.gif)
 
 
-6- وعند الضغط على زر START يتم تغيير الحالة من ( 0 الى 1) او ( 1 الى 0 ).
+يمكنك تجربته من هنا
+
+https://bashmailomar.github.io/control-interface-WEBSITE-v3/
 
 
-7- عند الضغط على اي رز ( Left,Right,Forward,Back,Stop ) يتم تخزين القيمة في قاعدة البيانات وعرضها في صفحة directionView.
+-- تعديل محتويات الملفات --
 
 
-8- اخيرا يمكنك عرض الصفحة على اجهزة الجوال بشكل مناسب كم يتضح في الصورة 
-
-
-mobile web view
-
-
-![WhatsApp Image 2021-06-23 at 7 58 48 AM](https://user-images.githubusercontent.com/78684031/123038820-c330ba00-d3f9-11eb-8edf-7a178e5cf0b7.jpeg)
-
-
-وايضا من خلال الرابط التالي ( https://bashmailomar.github.io/control-interface-WEBSITE-v2/ )
-
-
-مقطع يوضح عملية ارسال الاتجاه لقاعدة البيانات
-
-![Desktop 2021 06 23 - 22 28 32 02](https://user-images.githubusercontent.com/78684031/123157638-78538880-d473-11eb-9890-8b0bf371bdba.gif)
-
-
--- شرح محتويات الملفات --
-
-
-1- index.php و index.html ( تحتوي على هيكل واجهة التحكم. )
-
-
-2- style.css ( يحتوي على تصميم واجهة التحكم ويجعلها قابلة للإستخدام. )
-
-
-3- main.js و plg.js ( يجعل الصفحة تفاعلية مع المستخدم. )
-
-
-4- jquery-3.6.0.min.js ( استدعاك مكتبة JQUERY. )
-
-
-5- conn.php ( يتم الاتصال بقاعدة البيانات وتحديث قيم في قاعدة البيانات. )
-
-
-6- valuesView.php و directionView.php ( يتم جلب القيم والاتجاه من قاعدة البيانات. )
-
-
+- main.js ( تمت اضافة كود الـ chatBot للملف )
