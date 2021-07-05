@@ -1,5 +1,5 @@
 # control-interface-WEBSITE-v3
-
+هذا العمل متطلب لدى شركة الأساليب الذكية
 
 تم التعديل واضافة chatBot للموقع.
 
@@ -23,7 +23,7 @@
 https://bashmailomar.github.io/control-interface-WEBSITE-v3/
 
 
--- تعديل محتويات الملفات --
+--  الملفات المضافة --
 
 
-- main.js ( تمت اضافة كود الـ chatBot للملف )
+- skill-speaking.json ( يحتوي الملف على كود json )
